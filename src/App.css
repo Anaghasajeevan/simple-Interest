@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+.app{
+  background-color: black;
+  background-image: url('https://img.freepik.com/premium-photo/calculator-glasses-notepad-pink-background-place-text_96727-2488.jpg');
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  color: rgb(227, 115, 167);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  background-color: white;
+  background-image: url('');
+  width: 550px;
+  border-radius: 10px;
+  padding: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.amount-card{
+  background-color: lightsalmon;
+  height: 150px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-text{
+  padding: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.total-amount{
+  color: blueviolet;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.total-para{
+  color: rgb(63, 2, 26);
+}
+
+.text-filed{
+  margin-top: 40px;
+  border-radius: 10px;
+  color: black;
+  
+}
+
+.input{
+  margin-bottom: 20px;
+
+}
+
+.outlined-basic{
+  width: 550px;
+
+}
+
+.btn{
+  width: 275px;
+  height: 70px;
+  border-radius: 10px;
+  
 }
