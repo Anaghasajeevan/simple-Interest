@@ -1,8 +1,6 @@
 .app{
   background-color: black;
   background-image: url('https://img.freepik.com/premium-photo/calculator-glasses-notepad-pink-background-place-text_96727-2488.jpg');
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
   background-position: center;
   width: 100%;
   height: 100%;
@@ -16,7 +14,7 @@
 .container{
   background-color: white;
   background-image: url('');
-  width: 550px;
+  width: 650px;
   border-radius: 10px;
   padding: 3rem;
 }
@@ -67,4 +65,7 @@
   height: 70px;
   border-radius: 10px;
   
+}
+.title{
+  color: black;
 }

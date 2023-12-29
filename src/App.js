@@ -1,4 +1,4 @@
-import { Stack, TextField, colors } from '@mui/material';
+import { Stack, TextField } from '@mui/material';
 import './App.css';
 import Button from '@mui/material/Button';
 import { useState } from 'react';
@@ -48,7 +48,9 @@ function App() {
           <div className='heading-text'>
             {/* heading */}
             <h3 className='title'>SIMPLE CALCULATOR</h3> <br />
-            <p className='title-para'>CALCULATE YOUR SIMPLE INTEREST</p>
+            <p>the simple calculator is calculated as follow</p>
+            <p className='title-para'>CALCULATE SIMPLE INTEREST</p>
+            <hr/>
 
           </div>
 
@@ -104,7 +106,7 @@ function App() {
           <Stack direction="row" spacing={2}>
 
           <Button type='submit' className='btn' style={{backgroundColor:'black'}}  variant="contained">CALCULATE</Button>
-          <Button onClick={resetForm} className='btn' style={{backgroundColor:'red'}} variant="outlined">RESET</Button>
+          <Button onClick={resetForm} className='btn ' style={{backgroundColor:'green',color:"white"}} variant="outlined">RESET</Button>
   
           </Stack>
 
